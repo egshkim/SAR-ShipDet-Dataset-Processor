@@ -1,3 +1,5 @@
+Sure, I've updated the README.md to include the paper title, link, and dataset link for each of the supported datasets. Here's the updated version:
+
 # SAR-ShipDet-Toolkit
 
 A unified tool for processing various SAR (Synthetic Aperture Radar) ship detection datasets into a standardized format. This tool supports multiple popular datasets including HRSID, SAR-Ship-Dataset, SSDD, and SRSDD-V1.0, with robust error handling and comprehensive logging.
@@ -18,24 +20,32 @@ A unified tool for processing various SAR (Synthetic Aperture Radar) ship detect
 ## Supported Datasets
 
 1. **HRSID**: High-Resolution SAR Images Dataset
+   - Paper: [HRSID: A High-Resolution SAR Images Dataset for Ship Detection and Instance Segmentation](https://ieeexplore.ieee.org/document/9127939)
+   - Dataset: [https://github.com/chaozhong2010/HRSID](https://github.com/chaozhong2010/HRSID)
    - Single class (ship)
    - COCO format annotations (.json)
    - Variable image sizes
    - Conversion: COCO format → DOTA format → Relative coordinates
 
 2. **SAR-Ship-Dataset**
+   - Dataset: [https://github.com/CAESAR-Radi/SAR-Ship-Detection](https://github.com/CAESAR-Radi/SAR-Ship-Dataset)
    - Single class (ship)
    - YOLO format annotations (.txt)
    - Fixed 256x256 images
    - Conversion: YOLO format → DOTA format → Relative coordinates
 
 3. **SSDD**: SAR Ship Detection Dataset
+   - Paper: [SAR Ship Detection Dataset (SSDD): Official Release and Comprehensive Data Analysis
+](https://www.mdpi.com/2072-4292/13/18/3690)
+   - Dataset: [https://github.com/TianwenZhang0825/Official-SSDD](https://github.com/TianwenZhang0825/Official-SSDD)
    - Single class (ship)
    - XML annotations with rotated bounding boxes
    - Variable image sizes
    - Conversion: XML format → DOTA format → Relative coordinates
 
 4. **SRSDD-V1.0**: SAR Rotation Ship Detection Dataset
+   - Paper: [SRSDD-v1.0: A High-Resolution SAR Rotation Ship Detection Dataset](https://www.mdpi.com/2072-4292/13/24/5104)
+   - Dataset: [https://github.com/HeuristicLU/SRSDD-V1.0](https://github.com/HeuristicLU/SRSDD-V1.0)
    - Multi-class support (7 ship types)
    - Custom TXT format annotations with absolute coordinates
    - Fixed 1024x1024 images
