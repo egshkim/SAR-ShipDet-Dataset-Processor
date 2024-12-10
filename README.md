@@ -1,4 +1,4 @@
-# SAR-ShipDet-Dataset-Toolkit
+# SAR-ShipDet-Dataset-Processor
 
 A unified tool for processing various SAR (Synthetic Aperture Radar) ship detection datasets into a standardized format. This tool supports multiple popular datasets including HRSID, SAR-Ship-Dataset, SSDD, and SRSDD-V1.0, with robust error handling and comprehensive logging.
 
@@ -241,8 +241,8 @@ output_dir/
 If you use this processor in your research, please cite:
 
 ```bibtex
-@software{SAR-ShipDet-Dataset-Toolkit,
-  title={SAR-ShipDet-Dataset-Toolkit},
+@software{SAR-ShipDet-Dataset-Processor,
+  title={SAR-ShipDet-Dataset-Processor},
   author={SeonHoon Kim},
   year={2024},
   description={A unified tool for processing various SAR ship detection datasets}
